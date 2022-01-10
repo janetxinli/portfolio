@@ -1,0 +1,67 @@
+@import "../common/mixins";
+@import "../common/variables";
+
+.welcome {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  @media (min-width: $mdscreen) {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+
+  h2 {
+    display: inline-block;
+    margin-bottom: 0.5em;
+    font-size: 3rem;
+    text-align: center;
+    color: $primary;
+
+    @media (min-width: $mdscreen) {
+      align-self: end;
+      text-align: left;
+    }
+  }
+
+  img {
+    width: 50vw;
+    height: 50vw;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 6px solid rgba($primary, 75%);
+    order: -1;
+
+    @media (min-width: $smscreen) {
+      width: 33vw;
+      height: 33vw;
+      max-width: (420em)/16;
+      max-height: (420em)/16;
+    }
+
+    @media (min-width: $mdscreen) {
+      grid-row-start: 1;
+      grid-row-end: 3;
+      grid-column-start: 2;
+      grid-column-end: 3;
+      justify-self: end;
+    }
+  }
+
+  .text {
+    flex-direction: column;
+    text-align: center;
+
+    @media (min-width: $mdscreen) {
+      padding-right: 1em;
+      text-align: left;
+      align-self: start;
+    }
+
+    p {
+      font-size: 1.25rem;
+      color: $primary;
+    }
+  }
+}

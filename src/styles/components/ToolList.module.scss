@@ -1,0 +1,17 @@
+@import "../common/variables";
+@import "../common/mixins";
+
+.toolList {
+  margin: 1em auto;
+
+  @media (min-width: $smscreen) {
+    width: 60%;
+    max-width: (480em)/16;
+  }
+
+  .list {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 1em 0.5em 1em 0;
+  }
+}

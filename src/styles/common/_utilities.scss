@@ -1,0 +1,43 @@
+@import "variables";
+@import "mixins";
+
+.container {
+  width: 90%;
+  min-width: 18em;
+  margin: auto;
+
+  @media (min-width: $mdscreen) {
+    width: 80%;
+    max-width: $lgscreen;
+  }
+}
+
+.df {
+  display: flex;
+
+  &-fc {
+    flex-direction: column;
+  }
+
+  &-ai-c {
+    align-items: center;
+  }
+
+  &-jc-c {
+    justify-content: center;
+  }
+
+  &-jc-sb {
+    justify-content: space-between;
+  }
+}
+
+.vertical-center-parent {
+  position: absolute;
+  height: 100%;
+  display: flex;
+}
+
+.text-center {
+  text-align: center;
+}

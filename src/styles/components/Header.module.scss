@@ -1,0 +1,95 @@
+@import "../common/variables";
+@import "../common/mixins";
+
+.header {
+  padding: 1.5em 0;
+  flex-direction: column;
+
+  @media (min-width: $smscreen) {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .logo {
+    font-size: 1.5rem;
+    color: $primary;
+    font-weight: 600;
+
+    &Hidden {
+      visibility: hidden;
+      height: 0;
+    }
+
+    h1 {
+      font-size: 1.5rem;
+      margin-top: 0.25em;
+      margin-bottom: 0;
+      color: $tertiary;
+
+      @media (min-width: $smscreen) {
+        margin-top: 0;
+      }
+    }
+
+    img {
+      width: 50%;
+    }
+
+    @media (min-width: $smscreen) {
+      flex-direction: row;
+
+      h1 {
+        margin-left: 0.25em;
+      }
+
+      img {
+        width: 1.5em;
+      }
+    }
+  }
+
+  .navLink {
+    padding: 0.5em;
+    font-weight: 500;
+
+    &:last-child {
+      padding-right: 0;
+    }
+
+    &:hover {
+      &::after {
+        display: block;
+        position: relative;
+        content: "";
+        height: 0.5em;
+        bottom: 0;
+        background-color: rgba($secondary, 0.25);
+      }
+    }
+
+    &:active {
+      &::after {
+        display: block;
+        position: relative;
+        content: "";
+        height: 0.5em;
+        bottom: 0;
+        background-color: rgba($secondary, 0.4);
+      }
+    }
+  }
+
+  .current {
+    cursor: not-allowed;
+    pointer-events: none;
+
+    &::after {
+      display: block;
+      position: relative;
+      content: "";
+      height: 0.5em;
+      bottom: 0;
+      background-color: rgba($secondary, 0.5);
+    }
+  }
+}

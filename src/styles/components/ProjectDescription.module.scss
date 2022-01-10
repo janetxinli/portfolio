@@ -1,0 +1,52 @@
+@import "../common/variables";
+
+.projectDescription {
+  width: 100%;
+  max-width: 48em;
+  margin: auto;
+  margin-bottom: 2em;
+  padding-bottom: 1em;
+
+  &:not(:last-child) {
+    border-bottom: 2px solid rgba($tertiary, 40%);
+  }
+
+  h3 {
+    margin: 0.5em 0;
+    font-size: 1.25rem;
+  }
+
+  .tags {
+    margin-bottom: 0.5em;
+  }
+
+  img {
+    width: 100%;
+    max-width: 26em;
+    margin: auto;
+    display: block;
+    border: 1px solid $secondary;
+    border-radius: 3px;
+  }
+
+  p {
+    margin: 0 0 0.5em 0;
+  }
+
+  .externalLinks {
+    margin: 1em 0;
+
+    a {
+      border: 1px solid $secondary;
+      border-radius: 3px;
+      padding: 0.5em 1em;
+
+      &:not(:first-child) {
+        margin-left: 0.5em;
+      }
+      &:not(:last-child) {
+        margin-right: 0.5em;
+      }
+    }
+  }
+}
