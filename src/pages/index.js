@@ -10,7 +10,7 @@ export default function Home() {
 
         <section className={`df df-ai-c df-jc-c ${styles.text}`}>
           <p>
-            I&apos;m Bioinformatics Masters student and aspiring full stack
+            I&apos;m a Bioinformatics Masters student and aspiring full stack
             bioinformatics software developer. I&apos;m passionate about the
             complex world of genomics and want to build tools for analyzing and
             visualizing biological data.

@@ -1,10 +1,14 @@
 import React from "react";
+import Head from "next/head";
 import Link from "next/link";
 import tools from "../../data/tools";
 import ToolList from "../components/ToolList";
 
 const About = ({ toolList }) => (
   <>
+    <Head>
+      <title>Janet Li | About Me</title>
+    </Head>
     <h2 className="text-center">About Me</h2>
     <section>
       <p>
@@ -104,7 +108,9 @@ const About = ({ toolList }) => (
         familiar with its data science tools. I use a bit of R for wrangling and
         plotting data, as well. The software languages and tools that I enjoy
         working with and am strongest in are:
-        <ToolList toolList={toolList} />
+      </p>
+      <ToolList toolList={toolList} />
+      <p>
         I have a bit of experience with D3, but would like to work on some more
         projects with it to get better acquainted with the API. The next thing
         on my list to learn is a Python web framework such as Django or FastAPI.

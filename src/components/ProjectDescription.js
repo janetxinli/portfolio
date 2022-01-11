@@ -6,20 +6,20 @@ const ProjectDescription = ({ project }) => (
   <article className={`df df-fc df-ai-c ${styles.projectDescription}`}>
     <img src={project.image.src} alt={project.image.alt} />
     <h3>{project.name}</h3>
-    <article className={styles.tags}>
+    <article className={`df df-ai-c df-jc-c ${styles.tags}`}>
       {project.tags.map((t) => (
         <Tag key={t} content={t} />
       ))}
     </article>
-    <p>
+    <p className={styles.projectText}>
       <strong>Type:</strong> {project.type}
     </p>
     {project.contribution !== undefined && (
-      <p>
+      <p className={styles.projectText}>
         <strong>Contribution:</strong> {project.contribution}
       </p>
     )}
-    <p>
+    <p className={styles.projectText}>
       <strong>Description:</strong>{" "}
       {project.description.map((d, i) => (
         <span key={`${project.name}-description-${i}`}>
