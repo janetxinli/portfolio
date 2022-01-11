@@ -14,7 +14,7 @@ const Header = () => {
             router.pathname === "/" ? styles.logoHidden : styles.logo
           }`}
         >
-          <img src="/pearLogo.png" />
+          <img src="/pearLogo.png" alt="" />
           <h1>Janet Li</h1>
         </a>
       </Link>
@@ -49,9 +49,9 @@ const Header = () => {
             Projects
           </a>
         </Link>
-        <Link href="/">
+        <Link href="/LiJanet_Resume.pdf">
           <a
-            href="/"
+            href="/LiJanet_Resume.pdf"
             target="_blank"
             className={styles.navLink}
           >

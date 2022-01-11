@@ -117,8 +117,8 @@ const About = ({ toolList }) => (
         <br />
         <br />
         You can find a summary of my skills and experience in my{" "}
-        <Link href="/">
-          <a target="_blank" href="/">
+        <Link href="/LiJanet_Resume.pdf">
+          <a target="_blank" href="/LiJanet_Resume.pdf">
             resume
           </a>
         </Link>
