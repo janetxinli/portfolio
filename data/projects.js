@@ -1,35 +1,5 @@
 const projects = [
   {
-    name: "vibe check",
-    image: {
-      src: "/vibe_check.png",
-      alt: "A screenshot of vibe check 'Your Vibe' page",
-    },
-    tags: ["full stack", "React", "Next", "Express", "SCSS"],
-    type: "Personal project",
-    description: [
-      "vibe check is a web app that determines your mood from your Spotify \
-        listening history. Users log in to their Spotify account using \
-        Spotify's OAuth 2.0 framework, and their vibe is detected for \
-        different time scales from their recent listening history or top played \
-        songs. Users can save these songs to playlists for future listening.",
-      "This was my first big personal web development project, and I learned a \
-        lot from it. I greatly improved my front end skills with Next and SCSS \
-        and became more familiar with back end development, calling external \
-        APIs, and OAuth 2.0.",
-    ],
-    links: [
-      {
-        name: "live demo",
-        url: "https://vibecheck.vercel.app/",
-      },
-      {
-        name: "source code",
-        url: "https://github.com/janetxinli/vibe-check",
-      },
-    ],
-  },
-  {
     name: "biru",
     image: {
       src: "/biru.png",
@@ -68,6 +38,36 @@ const projects = [
     ],
   },
   {
+    name: "vibe check",
+    image: {
+      src: "/vibe_check.png",
+      alt: "A screenshot of vibe check 'Your Vibe' page",
+    },
+    tags: ["full stack", "React", "Next", "Express", "SCSS"],
+    type: "Personal project",
+    description: [
+      "vibe check is a web app that determines your mood from your Spotify \
+        listening history. Users log in to their Spotify account using \
+        Spotify's OAuth 2.0 framework, and their vibe is detected for \
+        different time scales from their recent listening history or top played \
+        songs. Users can save these songs to playlists for future listening.",
+      "This was my first big personal web development project, and I learned a \
+        lot from it. I greatly improved my front end skills with Next and SCSS \
+        and became more familiar with back end development, calling external \
+        APIs, and OAuth 2.0.",
+    ],
+    links: [
+      {
+        name: "live demo",
+        url: "https://vibecheck.vercel.app/",
+      },
+      {
+        name: "source code",
+        url: "https://github.com/janetxinli/vibe-check",
+      },
+    ],
+  },
+  {
     name: "Structural Variant Pathogenicity Visualization",
     image: {
       src: "/sv_teaser.png",
@@ -101,6 +101,29 @@ const projects = [
       },
     ],
   },
+  {
+    name: "Portfolio",
+    image: {
+      src: "/portfolio.png",
+      alt: "Home page of my portfolio site"
+    },
+    tags: ["front end", "React", "Next.js", "SCSS"],
+    type: "Personal project",
+    description: [
+      "This is the site you're looking at right now! I created my portfolio using React and Next.js \
+        to take advantage of Next's static generation, route pre-fetching and SCSS module compatibility."
+    ],
+    links: [
+      {
+        name: "source code",
+        url: "https://github.com/janetxinli/portfolio"
+      },
+      {
+        name: "live demo",
+        url: "https://www.janetxinli.com"
+      }
+    ]
+  }
 ];
 
 export default projects;
