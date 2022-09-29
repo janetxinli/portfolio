@@ -15,10 +15,10 @@ export default function Home() {
 
           <section className={`df df-ai-c df-jc-c ${styles.text}`}>
             <p>
-              I&apos;m a Bioinformatics Masters student and aspiring full stack
-              bioinformatics software developer. I&apos;m passionate about the
-              complex world of genomics and want to build tools for analyzing
-              and visualizing biological data.
+              I&apos;m a software engineer with a focus on front-end development
+              and data visualization. I have experience building full-stack web
+              applications and bioinformatics software, and am passionate about
+              creating accessible and responsive user interfaces.
             </p>
           </section>
         </article>
