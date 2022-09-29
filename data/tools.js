@@ -1,15 +1,14 @@
 const tools = [
   "Python",
-  "JavaScript",
+  "JavaScript/TypeScript",
   "Git/Github",
   "Linux/Bash",
   "React",
   "Next.js",
-  "HTML",
+  "HTML5",
   "CSS & SCSS",
   "Node.js",
   "Express.js",
-  "SQL",
 ];
 
 export default tools;
