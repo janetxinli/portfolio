@@ -46,8 +46,13 @@
       &:not(:first-child) {
         margin-left: 0.5em;
       }
+
       &:not(:last-child) {
         margin-right: 0.5em;
+      }
+
+      &:hover {
+        background-color: lighten($secondary, 35%);
       }
     }
   }
