@@ -5,8 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import styles from "../styles/components/Footer.module.scss";
 
 const Footer = () => (
-  <footer className={`container df df-ai-c df-jc-sb ${styles.footer}`}>
-    <p>Keep in Touch</p>
+  <footer className={`container df df-ai-c df-jc-fe ${styles.footer}`}>
     <span>
       <address>
         <a href="mailto:janetxinli@gmail.com">
