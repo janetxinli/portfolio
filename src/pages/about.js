@@ -12,21 +12,19 @@ const About = ({ toolList }) => (
     <h2 className="text-center">About Me</h2>
     <section>
       <p>
-        Hi there, I&apos;m Janet (she/her). I&apos;m a developer,
-        bioinformatician, coffee lover and crochet enthusiast. I&apos;m
-        currently working as a Software Engineer at Deep Genomics, building user
-        interfaces and biological data visualizations. I recently graduated with
-        my M.Sc. in Bioinformatics from the University of British Columbia,
-        where I worked on genome assembly correction and fungal comparative
-        genomics.
+        Hi there, I&apos;m Janet (she/her). I&apos;m a software engineer,
+        bioinformatician, coffee lover and crochet enthusiast. I recently
+        graduated with my M.Sc. in Bioinformatics from the University of British
+        Columbia, where I worked on genome assembly correction and fungal
+        comparative genomics.
       </p>
       <h3 className="text-center">Skills</h3>
       <p>
         I have experience with full-stack web development: React and Next.js for
         the front-end and Express.js on the back-end. I also have extensive
-        experience writing Python for bioinformatics and data science, as well
-        as R for wrangling and plotting data. The software languages and tools
-        that I enjoy working with and am strongest in are:
+        experience using Python for bioinformatics and data science, as well as
+        R for wrangling and plotting data. The software languages and tools that
+        I enjoy working with and am strongest in are:
       </p>
       <ToolList toolList={toolList} />
       <p>
