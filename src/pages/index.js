@@ -15,10 +15,9 @@ export default function Home() {
 
           <section className={`df df-ai-c df-jc-c ${styles.text}`}>
             <p>
-              I&apos;m a software engineer with a focus on front-end development
-              and data visualization. I have experience building full-stack web
-              applications and bioinformatics software, and am passionate about
-              creating accessible and responsive user interfaces.
+              I&apos;m a software engineer with experience building full-stack
+              web applications and bioinformatics software. I am interested in
+              biotech, health tech and data visualization.
             </p>
           </section>
         </article>
